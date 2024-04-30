@@ -1,8 +1,15 @@
 /*
-Theme Name: Project 2 Theme
-Author: Your name
-Description: My DGL233 Project 2 Classic Theme
-Version: 1.0
+Theme Name: Project 3 Theme
+Author: Sai Srinivas Alahari
+Author URI: https://dgl233.salahari.imgd.ca/project3/
+Description: Magazine website wireframes build
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: project3
+Requires at least: WordPress 5.0
+Tested up to: WordPress 5.8
+Requires PHP: 7.0
 */
 
 /* CSS Reset */
@@ -68,4 +75,452 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+body {
+  background: white;
+}
+
+/* Style the header */
+
+/* General styling for the header container */
+
+.header-container {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 50%;
+}
+.menu-primary-container {
+  background-color: #212121; /* Change this to the background color of your header */
+  color: #fff; /* This is the text color */
+  font-family: Arial, sans-serif; /* This is the font family, change as needed */
+  padding: 10px 0; /* This gives some space above and below the content inside the header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for the navigation menu */
+.nav-menu {
+  list-style: none; /* Removes default list styling */
+  display: flex;
+  margin: 0; /* Resets default margin */
+  padding: 0; /* Resets default padding */
+}
+
+/* Styling for each menu item */
+.nav-menu li {
+  margin-right: 20px; /* Spacing between menu items */
+}
+
+/* Styling for each link in the menu items */
+.nav-menu li a {
+  color: #fff; /* Text color for the links */
+  text-decoration: none; /* Removes the underline from links */
+  font-weight: bold; /* Makes the font bold */
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+/* Styling for the menu item that is currently active */
+.nav-menu li.current-menu-item a {
+  border-bottom: 3px solid #fff; /* Adds a white bottom border to the active menu item */
+}
+
+/* Ensure that the last menu item does not have extra margin on the right */
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+/* Styling for any buttons in the header - update your HTML with a class if needed */
+.menu-primary-container .header-button {
+  padding: 10px 20px; /* Adjusts size of the button */
+  background-color: #f00; /* Background color of the button */
+  color: #fff; /* Text color of the button */
+  text-transform: uppercase; /* Makes the text uppercase */
+  border: none; /* Removes the border */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+/* Responsive design adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column; /* Stack the menu items vertically */
+  }
+  .nav-menu li {
+    margin-right: 0; /* Remove the margin between items for a stacked layout */
+  }
+}
+
+/* Archive page styling */
+.articles_box,
+.article_news_box,
+.popular_articles_box {
+  display: grid;
+  flex-direction: row-reverse;
+}
+.article-card {
+  max-width: 300px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.image-container img {
+  width: 300px;
+  display: block;
+  height: 200px;
+}
+
+.article-card h2 {
+  font-size: 24px;
+  margin-top: 0.5em;
+}
+
+.article-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0;
+  border-top: 2px solid #000; /* For the top line */
+}
+
+.article-meta .author,
+.article-meta .date {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.bird-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  margin: 40px 120px;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Creates 4 columns for the second row */
+  grid-gap: 30px;
+}
+
+.full-width-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 2:1 ratio for image to content */
+  grid-column: 1 / -1; /* This will make the first item take up the full width of the grid */
+  align-items: center;
+  gap: 30px; /* Space between image and content */
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-item h3,
+.full-width-item h3 {
+  margin: 0.5em 0;
+}
+
+.author,
+.grid-item .date,
+.full-width-item .date {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.grid-item,
+.article,
+.popular_article {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.full-width-item h3 {
+  font-size: 40px;
+}
+
+/* Book frontpage */
+
+.book {
+  display: flex;
+  margin: 10px 0px;
+  padding: 80px;
+  background-color: #c8c6c6;
+  gap: 30px;
+}
+
+.book-image img {
+  width: 3000px;
+  height: 400px;
+}
+
+.book-cost {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#subscribe {
+  width: 400px;
+}
+
+/* Load more */
+.loadMoreBtn-label {
+  margin-left: 490px;
+}
+
+/* form */
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  margin: 80px 0px;
+  justify-content: space-between;
+}
+
+.hiring {
+  width: 30%;
+  display: flex;
+  gap: 20px;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+  width: 330px;
+}
+
+.footer_img {
+  display: flex;
+  justify-content: center;
+  background-color: #1b1b1b;
+  padding: 20px 0px;
+}
+
+.footer_content {
+  background-color: #1b1b1b;
+  color: #fff;
+  display: flex;
+  padding: 20px 50px;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 34px;
+  padding: 10px 0px;
+}
+
+footer p {
+  padding: 0px 50px;
+}
+
+.fa-twitter:before,
+.fa-facebook:before,
+.fa-square:before {
+  content: "\f099";
+  color: white;
+}
+
+.footer_links {
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Archive page */
+.content {
+  padding: 20px 80px;
+}
+
+/* single post */
+
+figure {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.single_post {
+  text-align: center;
+  margin: 20px 150px;
+}
+
+.single_post h2,
+.date,
+.content {
+  margin: 30px 0px;
+}
+/* breadcrumbs */
+/* General styling for the breadcrumbs container */
+#crumbs {
+  font-size: 16px;
+  padding: 8px 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style for each breadcrumb link */
+#crumbs a {
+  color: #0275d8;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for breadcrumb links */
+#crumbs a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* Current page or item styling, assuming it doesn't have a link */
+#crumbs .current {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Optional: Style breadcrumb separator */
+#crumbs span.separator {
+  margin: 0 10px;
+  color: #666;
+}
+
+/* .single_post .author {
+  font-size: 0.9em;
+  color: black;
+  margin: 10px 0px -20px 0px;
+} */
+
+/* single book */
+
+.book-details {
+  display: flex;
+  margin: 40px 350px 40px 50px;
+}
+
+.single-book-headings {
+  margin: 40px 350px 40px 50px;
+}
+
+.\.book-details-img {
+  width: 3000px;
+}
+
+/* Contact us */
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section {
+  margin-bottom: 20px;
+}
+.contact-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+.contact-section p,
+.contact-section a {
+  font-size: 18px;
+  color: #333;
+}
+.contact-section a {
+  text-decoration: none;
+  color: #0077cc;
+}
+.contact-section a:hover {
+  text-decoration: underline;
+}
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.column {
+  flex-basis: 30%;
+}
+
+.contact_form {
+  margin: 20px 400px 20px 148px;
+}
+
+.contact-page-content h1,
+.contact_form_heading h2 {
+  margin: 0px 148px;
+}
+
+/* Contact Form container */
+.wpcf7-form p {
+  margin-bottom: 16px;
+}
+
+.wpcf7-form label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.wpcf7-text,
+.wpcf7-email,
+.wpcf7-select,
+.wpcf7-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+}
+
+.wpcf7-textarea {
+  height: 150px;
+}
+
+.wpcf7-submit {
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.wpcf7-checkbox {
+  margin-top: 4px;
+}
+
+.wpcf7-checkbox label {
+  display: inline-block;
+  margin-right: 10px;
 }
