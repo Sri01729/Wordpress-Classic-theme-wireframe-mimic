@@ -1,0 +1,189 @@
+0000.000 (0) Opened log file at time: Sat, 23 Mar 2024 08:42:25 +0000 on https://dgl233.salahari.imgd.ca/project3
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34M | 36M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.033 (0) Free space on disk containing Updraft's temporary directory: 72592.9 MB
+0000.035 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.036 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.040 (0) Semaphore (f, wp_options) being initialised
+0000.041 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.042 (0) Set semaphore last lock (f) time to 2024-03-23 08:42:25
+0000.042 (0) Semaphore lock (f) complete
+0000.044 (0) Backup run: resumption=0, nonce=cda1c5069a71, file_nonce=cda1c5069a71 begun at=1711183345 (0s ago), job type=backup
+0000.044 (0) Scheduling a resumption (1) after 300 seconds (1711183645) in case this run gets aborted
+0000.053 (0) Checking if we have a zip executable available
+0000.053 (0) Testing: /usr/bin/zip
+0000.058 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.059 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.060 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.067 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.073 (0) Working binary zip found: /usr/bin/zip
+0000.074 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.074 (0) Creation of backups of directories: beginning
+0000.076 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.128 (0) Total entities for the zip file: 215 directories, 1253 files (0 skipped as non-modified), 24.7 MB
+0000.130 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.132 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.134 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.135 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.137 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.138 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.140 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.141 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.143 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.144 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.144 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.3 MB, 1253 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.140 (0) backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: size is now: 6.50 MB
+0001.142 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 1100 files added (on-disk size: 6688.2 KB)
+0001.144 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.tmp: 1200 files added (on-disk size: 6688.2 KB)
+0001.282 (0) Creating zip file manifest (backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.list-temp.tmp)
+0001.284 (0) Successfully created zip file manifest (size: 108528)
+0001.365 (0) Created plugins zip (0) - 7438.2 KB in 1.3 s (5943.2 KB/s) (sha1: 6b584cfcc46c6f1d5956edb4821ec59cb49c8f58, sha256: 7408a3ac0e21371b3bfad1bc7bb01916fedf16bc2daeccacebcc26d57c1d1f15)
+0001.368 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0001.368 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5723f22e7fe725c9e13979594a06954b)
+0001.369 (0) Google Drive: this account is not authorised
+0001.369 (0) An error condition has occurred for the first time during this job
+0001.371 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.414 (0) Total entities for the zip file: 39 directories, 291 files (0 skipped as non-modified), 12.1 MB
+0001.416 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.418 (0) Zip: backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.802 (0) backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip.tmp: size is now: 10.90 MB
+0001.805 (0) Creating zip file manifest (backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip.list-temp.tmp)
+0001.806 (0) Successfully created zip file manifest (size: 20630)
+0001.913 (0) Created themes zip (0) - 11122.7 KB in 0.5 s (22111.6 KB/s) (sha1: df9dee11a9187b8930218ad93b767cd8ae27997b, sha256: c6bf5add9dd58fa24b5cf3dba7107df7194657a3895da17add659ba586b486cb)
+0001.915 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0001.915 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5723f22e7fe725c9e13979594a06954b)
+0001.915 (0) Google Drive: this account is not authorised
+0001.917 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0001.917 (0) Looking for candidates to backup in: /home/n0199837/public_html/dgl233.salahari.imgd.ca/project3/wp-content/uploads
+0001.918 (0) finding files: 2024: adding to list (1)
+0001.918 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0001.951 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0001.956 (0) backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip.tmp: size is now: 0.00 MB
+0001.957 (0) Did not find any files in the zip: backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip.tmp
+0001.959 (0) Created uploads zip (0) - 0.3 KB in 0 s (35.4 KB/s) (sha1: c90f4d76e840257a87e5f5eb518d21c9775338bc, sha256: a8843c42c68d7427e185c5f923f3978b34d4cbf024f918567f4465d83ea2a75c)
+0001.960 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0001.961 (0) Does not exist: /home/n0199837/public_html/dgl233.salahari.imgd.ca/project3/wp-content/mu-plugins
+0001.963 (0) There are no mu-plugins to backup. Will not raise an error.
+0001.963 (0) mu-plugins: create_zip returned an error
+0001.964 (0) Beginning backup of other directories found in the content directory (index: 0)
+0001.964 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0001.965 (0) Looking for candidates to backup in: /home/n0199837/public_html/dgl233.salahari.imgd.ca/project3/wp-content
+0001.965 (0) finding files: plugins: skipping: this is the plugins directory
+0001.965 (0) finding files: themes: skipping: this is the themes directory
+0001.966 (0) finding files: languages: adding to list (1)
+0001.966 (0) finding files: index.php: adding to list (2)
+0001.966 (0) finding files: uploads: skipping: this is the uploads directory
+0001.966 (0) finding files: upgrade: skipping: excluded by options
+0001.967 (0) finding files: updraft: skipping: this is the updraft directory
+0002.001 (0) Total entities for the zip file: 3 directories, 79 files (0 skipped as non-modified), 3.2 MB
+0002.140 (0) backup_2024-03-23-0442_project3_cda1c5069a71-others.zip.tmp: size is now: 0.70 MB
+0002.142 (0) Creating zip file manifest (backup_2024-03-23-0442_project3_cda1c5069a71-others.zip.list-temp.tmp)
+0002.142 (0) Successfully created zip file manifest (size: 4685)
+0002.152 (0) Created others zip (0) - 761.9 KB in 0.2 s (5007.6 KB/s) (sha1: b307d6f35a4b1032429230c08e13e90d69bfa9b4, sha256: 14d27816842f0950c713bb2673656a5e70f8775ffb31d829be5b567a92934532)
+0002.153 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.153 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5723f22e7fe725c9e13979594a06954b)
+0002.154 (0) Google Drive: this account is not authorised
+0002.156 (0) Saving backup status to database (elements: 8)
+0002.157 (0) No database backup (wp) - not part of this run
+0002.158 (0) backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0002.159 (0) backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0002.159 (0) backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0002.159 (0) backup_2024-03-23-0442_project3_cda1c5069a71-others.zip: others: This file has not yet been successfully uploaded: will queue
+0002.160 (0) Saving backup history. Total backup size: 18.9 MB
+0002.161 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0002.162 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.162 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5723f22e7fe725c9e13979594a06954b)
+0002.162 (0) Google Drive: this account is not authorised
+0002.163 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.164 (0) Number of backup sets in history: 1; groups (db): 1
+0002.164 (0) Examining (for databases) backup set with group_id=0, nonce=cda1c5069a71, datestamp=1711183345 (Mar 23 2024 08:42:25)
+0002.165 (0) Number of backup sets in history: 1; groups (files): 1
+0002.165 (0) Examining (for files) backup set with nonce=cda1c5069a71, datestamp=1711183345 (Mar 23 2024 08:42:25)
+0002.165 (0) This backup set is the backup set just made, so will not be deleted.
+0002.165 (0) This backup set is the backup set just made, so will not be deleted.
+0002.165 (0) This backup set is the backup set just made, so will not be deleted.
+0002.165 (0) This backup set is the backup set just made, so will not be deleted.
+0002.165 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0002.166 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0002.167 (0) Resume backup (cda1c5069a71, 0): finish run
+0002.167 (0) Decremented the semaphore (f) by 1
+0002.168 (0) Semaphore (f) unlocked
+0002.168 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0002.169 (0) No email will/can be sent - the user has not configured an email address.
+0002.169 (0) The backup has not finished; a resumption is scheduled.
+0354.180 (1) Opened log file at time: Sat, 23 Mar 2024 08:48:19 +0000 on https://dgl233.salahari.imgd.ca/project3
+0354.181 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34M | 36M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0354.218 (1) Free space on disk containing Updraft's temporary directory: 72570.7 MB
+0354.219 (1) Requesting backup semaphore lock (cda1c5069a71)
+0354.220 (1) [Debug] Lock option (updraft_lock_cda1c5069a71, wp_options) was created in the database
+0354.220 (1) [Info] Lock (updraft_lock_cda1c5069a71, wp_options) acquired after initialising the database
+0354.221 (1) Backup run: resumption=1, nonce=cda1c5069a71, file_nonce=cda1c5069a71 begun at=1711183345 (354s ago), job type=backup, previous check-in=2.14s
+0354.222 (1) Scheduling a resumption (2) after 300 seconds (1711183999) in case this run gets aborted
+0354.231 (1) Checking if we have a zip executable available
+0354.232 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0354.232 (1) Creation of backups of directories: already finished
+0354.232 (1) Saving backup status to database (elements: 8)
+0354.237 (1) No database backup (wp) - not part of this run
+0354.238 (1) backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0354.239 (1) backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0354.239 (1) backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0354.239 (1) backup_2024-03-23-0442_project3_cda1c5069a71-others.zip: others: This file has not yet been successfully uploaded: will queue
+0354.240 (1) Saving backup history. Total backup size: 18.9 MB
+0354.241 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0354.242 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0354.242 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5723f22e7fe725c9e13979594a06954b)
+0354.849 (1) Google Drive: quota usage: used=726.8 MB, total=15360 MB, available=14633.2 MB
+0354.849 (1) Google Drive: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ehYkD92LqRiHx680DiwcIWkZ7jG9GAi6)
+0355.327 (1) Googledrive chunked upload: 13.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 36.6 / 38)
+0355.595 (1) Googledrive chunked upload: 41.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 36.6 / 38)
+0355.898 (1) Googledrive chunked upload: 96.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 36.6 / 38)
+0357.998 (1) Googledrive chunked upload: 100 % uploaded (7340032)
+0358.000 (1) Google Drive: OK: Archive backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip uploaded in 3.15 seconds
+0358.001 (1) Recording as successfully uploaded: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip
+0358.003 (1) Deleting local file: backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip: OK
+0358.157 (1) Google Drive: quota usage: used=734 MB, total=15360 MB, available=14626 MB
+0358.157 (1) Google Drive: backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip: Attempting to upload to Google Drive (into folder id: 1ehYkD92LqRiHx680DiwcIWkZ7jG9GAi6)
+0358.601 (1) Googledrive chunked upload: 9.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 36.6 / 38)
+0358.870 (1) Googledrive chunked upload: 27.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 36.6 / 38)
+0359.169 (1) Googledrive chunked upload: 64.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 36.6 / 38)
+0360.100 (1) Googledrive chunked upload: 100 % uploaded (7340032)
+0360.102 (1) Google Drive: OK: Archive backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip uploaded in 1.94 seconds
+0360.102 (1) Recording as successfully uploaded: backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip
+0360.105 (1) Deleting local file: backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip: OK
+0360.254 (1) Google Drive: quota usage: used=744.9 MB, total=15360 MB, available=14615.1 MB
+0360.255 (1) Google Drive: backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ehYkD92LqRiHx680DiwcIWkZ7jG9GAi6)
+0361.180 (1) Googledrive chunked upload: 100 % uploaded
+0361.182 (1) Google Drive: OK: Archive backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip uploaded in 0.93 seconds
+0361.182 (1) Recording as successfully uploaded: backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip
+0361.184 (1) Deleting local file: backup_2024-03-23-0442_project3_cda1c5069a71-uploads.zip: OK
+0361.367 (1) Google Drive: quota usage: used=744.9 MB, total=15360 MB, available=14615.1 MB
+0361.368 (1) Google Drive: backup_2024-03-23-0442_project3_cda1c5069a71-others.zip: Attempting to upload to Google Drive (into folder id: 1ehYkD92LqRiHx680DiwcIWkZ7jG9GAi6)
+0362.610 (1) Googledrive chunked upload: 100 % uploaded
+0362.615 (1) Google Drive: OK: Archive backup_2024-03-23-0442_project3_cda1c5069a71-others.zip uploaded in 1.25 seconds
+0362.616 (1) Recording as successfully uploaded: backup_2024-03-23-0442_project3_cda1c5069a71-others.zip
+0362.620 (1) Deleting local file: backup_2024-03-23-0442_project3_cda1c5069a71-others.zip: OK
+0362.622 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0362.623 (1) Number of backup sets in history: 2; groups (db): 1
+0362.624 (1) Examining (for databases) backup set with group_id=0, nonce=3d0513c4a278, datestamp=1711183347 (Mar 23 2024 08:42:27)
+0362.624 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0362.625 (1) Examining (for databases) backup set with group_id=0, nonce=cda1c5069a71, datestamp=1711183345 (Mar 23 2024 08:42:25)
+0362.625 (1) Number of backup sets in history: 2; groups (files): 1
+0362.625 (1) Examining (for files) backup set with nonce=3d0513c4a278, datestamp=1711183347 (Mar 23 2024 08:42:27)
+0362.625 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0362.625 (1) Examining (for files) backup set with nonce=cda1c5069a71, datestamp=1711183345 (Mar 23 2024 08:42:25)
+0362.625 (1) This backup set is the backup set just made, so will not be deleted.
+0362.626 (1) This backup set is the backup set just made, so will not be deleted.
+0362.626 (1) This backup set is the backup set just made, so will not be deleted.
+0362.626 (1) This backup set is the backup set just made, so will not be deleted.
+0362.626 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0362.626 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0362.628 (1) Resume backup (cda1c5069a71, 1): finish run
+0362.630 (1) [Info] Lock option (updraft_lock_cda1c5069a71, wp_options) released
+0362.630 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0362.632 (1) Deleting zip manifest (backup_2024-03-23-0442_project3_cda1c5069a71-plugins.zip.list.tmp)
+0362.632 (1) Deleting zip manifest (backup_2024-03-23-0442_project3_cda1c5069a71-themes.zip.list.tmp)
+0362.633 (1) Deleting zip manifest (backup_2024-03-23-0442_project3_cda1c5069a71-others.zip.list.tmp)
+0362.633 (1) No email will/can be sent - the user has not configured an email address.
+0362.633 (1) The backup succeeded and is now complete

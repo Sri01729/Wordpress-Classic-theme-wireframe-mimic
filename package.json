@@ -1,0 +1,29 @@
+{
+  "name": "project-3-sri01729",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+  "lint:fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+  "extends": ["wesbos"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "endOfLine": "auto",
+        "tabWidth": 4
+      }
+    ]
+  }
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-wesbos": "^4.0.1"
+  }
+}
