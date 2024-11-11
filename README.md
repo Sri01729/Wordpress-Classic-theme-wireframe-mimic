@@ -1,7 +1,5 @@
-# Project Title: Watershed Sentinel Website wireframes mimic
+# Website wireframes mimic using wordpress
 
-## Project Overview
-This project involves creating a mimic of the Watershed Sentinel website wireframes utilizing WordPress and the Classic theme. The primary goal is to design the existing site using wireframes that capture the essence of the original website's layout and functionality in a simplified form.
 
 ## Technologies Used
 - **WordPress**: Content management system used to build and manage the website.
